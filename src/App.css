@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+
+  /*
+    Mobile Width: 375px;
+    Desktop Width: 1440px;
+  */
+
+  /* Primary Colors */
+  --clr-primary-soft-orange: hsl( 35, 77%, 62% );
+  --clr-primary-soft-red: hsl( 5, 85%, 63% );
+
+  /* Neutral Colors */
+  --clr-neutral-off-white: hsl( 36, 100%, 99% );
+  --clr-neutral-grayish-blue: hsl( 233, 8%, 79% );
+  --clr-neutral-dark-grayish-blue: hsl( 236, 13%, 42% );
+  --clr-neutral-very-dark-blue: hsl( 240, 100%, 5% );
+
+  /* Font Family */
+  --ff: 'Inter', sans-serif;
+
+  /* Paragraph Font Size */
+  --p-fs: 15px;
+
+  /* Font Weights */
+  --fw: 400;
+  --fw: 700;
+  --fw: 800;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* CSS RESETS */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Remove default margin */
+
+* {
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html,
+body {
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+/* 
+  Typographic tweaks!
+  - Add accessibility Line-Height
+  - Improve yexy rendering
+*/
+
+body {
+ line-height: 1.7;
+ -webkit-font-smoothing: antialiased;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Improve media defaults */
+
+img,
+picture,
+video,
+canvas,
+svg {
+ display: block;
+ max-width: 100%;
 }
+
+/* Remove built in form typography */
+
+input,
+button,
+textarea,
+select {
+ font: inherit;
+}
+
+/* Avoid text overflow */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ overflow-wrap: break-word;
+}
+
