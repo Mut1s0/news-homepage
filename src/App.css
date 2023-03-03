@@ -105,6 +105,10 @@ body {
   display: flex;
 }
 
+.nav--hover:hover {
+  color: var(--clr-primary-soft-orange);
+}
+
 /* .hero {
   border: 2px solid red;
 } */
@@ -136,6 +140,10 @@ body {
 
 hr {
   color: var(--clr-neutral-off-white);
+}
+
+.hero--side--hover:hover {
+  color: var(--clr-primary-soft-orange);
 }
 
 .hero--title {
@@ -178,6 +186,10 @@ hr {
   color: var(--clr-neutral-off-white);
 }
 
+.hero--link:hover {
+  background-color: var(--clr-neutral-very-dark-blue);
+}
+
 .footer--info {
   margin-left: 1.5rem;
   line-height: 1rem;
@@ -207,6 +219,10 @@ hr {
 .footer--img {
   max-width: 40%;
   max-height: 15vh;
+}
+
+.footer--hover:hover {
+  color: var(--clr-primary-soft-red);
 }
 
 @media only screen and ( max-width:991px ){

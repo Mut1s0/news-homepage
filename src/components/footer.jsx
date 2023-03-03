@@ -15,7 +15,7 @@ const Footer = () => {
 
                         <h1 className="footer--header">01</h1>
 
-                        <p className="footer--link"><a href="#">Reviving Retro PCs</a></p>
+                        <p className="footer--link"><a href="#" className="footer--hover">Reviving Retro PCs</a></p>
 
                         <p className="footer--p">What happens when old PCs are given modern upgrade?</p>
 
@@ -35,7 +35,7 @@ const Footer = () => {
 
                         <h1 className="footer--header">02</h1>
 
-                        <p className="footer--link"><a href="#">Top 10 Laptops of 2022</a></p>
+                        <p className="footer--link"><a href="#" className="footer--hover">Top 10 Laptops of 2022</a></p>
 
                         <p className="footer--p">Our best picks for various needs and budgets.</p>
 
@@ -55,7 +55,7 @@ const Footer = () => {
 
                         <h1 className="footer--header">03</h1>
 
-                        <p className="footer--link"><a href="#">The Growth of Gaming</a></p>
+                        <p className="footer--link"><a href="#" className="footer--hover">The Growth of Gaming</a></p>
 
                         <p className="footer--p">How the pandemic has sparked fresh opportunities.</p>
 

@@ -19,23 +19,23 @@ const Navbar = () => {
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
                         <li className="navbar-item mx-3">
-                            <a href="#" className="nav-link">Home</a>
+                            <a href="#" className="nav-link nav--hover">Home</a>
                         </li>
 
                         <li className="navbar-item mx-3">
-                            <a href="#" className="nav-link">New</a>
+                            <a href="#" className="nav-link nav--hover">New</a>
                         </li>
 
                         <li className="navbar-item mx-3">
-                            <a href="#" className="nav-link">Popular</a>
+                            <a href="#" className="nav-link nav--hover">Popular</a>
                         </li>
 
                         <li className="navbar-item mx-3">
-                            <a href="#" className="nav-link">Trending</a>
+                            <a href="#" className="nav-link nav--hover">Trending</a>
                         </li>
 
                         <li className="navbar-item">
-                            <a href="#" className="nav-link">Categories</a>
+                            <a href="#" className="nav-link nav--hover">Categories</a>
                         </li>
 
                     </ul>

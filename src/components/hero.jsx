@@ -48,19 +48,19 @@ const Hero = () => {
 
                 <h1 className="hero--side--header">New</h1>
 
-                <p className="hero--side--anchor"><a href="#">Hydrogen VS Electric Cars</a></p>
+                <p className="hero--side--anchor"><a href="#" className="hero--side--hover">Hydrogen VS Electric Cars</a></p>
 
                 <p className="hero--side--p">Will Hydrogen-Fueled cars ever catch up to EVs?</p>
 
                 <hr />
 
-                <p className="hero--side--anchor"><a href="#">The Downsides of AI Artistry</a></p>
+                <p className="hero--side--anchor"><a href="#" className="hero--side--hover">The Downsides of AI Artistry</a></p>
 
                 <p className="hero--side--p">What are the possible adverse effects of on-demand AI image generation?</p>
 
                 <hr />
 
-                <p className="hero--side--anchor"><a href="#">Is VC Funding Drying Up?</a></p>
+                <p className="hero--side--anchor"><a href="#" className="hero--side--hover">Is VC Funding Drying Up?</a></p>
 
                 <p className="hero--side--p">Private funding by VC firms is down 50% YOY. We take a look at what that means</p>
 
