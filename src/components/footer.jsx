@@ -5,7 +5,7 @@ const Footer = () => {
 
         <div className="row footer">
 
-            <div className="col">
+            <div className="col-lg footer--content">
 
                 <div className="flex">
 
@@ -25,7 +25,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="col">
+            <div className="col-lg footer--content">
 
                 <div className="flex">
 
@@ -45,7 +45,7 @@ const Footer = () => {
 
             </div>
 
-            <div className="col">
+            <div className="col-lg footer--content">
 
                 <div className="flex">
 

@@ -9,9 +9,18 @@ const Hero = () => {
 
                 <picture>
 
-                    <source srcset="" />
+                    {/* <source 
+                        srcset={ require( "../images/image-web-3-mobile.jpg" )} 
+                        sizes='( max-width: 991px )'
+                        className="img-fluid"
+                    /> */}
 
-                    <img src={ require("../images/image-web-3-desktop.jpg") } alt="Logo" className="img-fluid"/>
+                    <img 
+                        src={ require("../images/image-web-3-desktop.jpg") }
+                        alt="Hero_Image" 
+                        className="img-fluid"
+                    />
+
 
                 </picture>
 
