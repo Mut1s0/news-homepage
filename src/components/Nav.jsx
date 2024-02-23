@@ -35,7 +35,7 @@ function Nav() {
                     onClick={() => setToggle((prev) => !prev)}
                 />
 
-                <div className={`${toggle ? 'block' : 'hidden'} absolute top-0 right-0 min-w-[300px] h-screen bg-offWhite p-9`}>
+                <div className={`${toggle ? 'block' : 'hidden'} fixed top-0 right-0 min-w-[300px] h-screen bg-offWhite p-9`}>
 
                     <div className="flex items-center justify-end pb-[50px]">
 
