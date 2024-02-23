@@ -14,9 +14,9 @@ function Footer() {
 
                     <section>
 
-                        <span className="text-grayishBlue font-bold text-[35px] block pb-2">{news.number}</span>
+                        <span className="text-grayishBlue font-bold text-[35px] block pb-1">{news.number}</span>
 
-                        <h1 className="text-veryDarkBlue font-extraBold hover:text-softRed cursor-pointer text-[16px] pb-3">{news.title}</h1>
+                        <h1 className="text-veryDarkBlue font-extraBold hover:text-softRed cursor-pointer text-[18px]">{news.title}</h1>
 
                         <p className="text-grayishBlue font-regular text-[16px]">{news.content}</p>
 

@@ -10,7 +10,7 @@ function Nav() {
 
         <nav className="flex items-center justify-between">
 
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="cursor-pointer" />
 
             <div className="hidden sm:flex items-center justify-end gap-[40px]">
 
