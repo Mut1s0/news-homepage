@@ -12,13 +12,13 @@ function Nav() {
 
             <img src={logo} alt="logo" />
 
-            <div className="hidden sm:flex items-center justify-end gap-[50px]">
+            <div className="hidden sm:flex items-center justify-end gap-[40px]">
 
                 {navigation.map((nav) => (
 
                     <ul key={nav.id}>
 
-                        <li><a href="#" className="font-regular hover:text-softRed">{nav.navLink}</a></li>
+                        <li><a href="#" className="font-regular hover:text-softRed text-[16px]">{nav.navLink}</a></li>
 
                     </ul>
 

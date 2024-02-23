@@ -4,7 +4,7 @@ function Hero() {
 
     return(
 
-        <main className="grid grid-cols-1 md:grid-cols-3 md:gap-[30px]">
+        <main className="grid grid-cols-1 md:grid-cols-3 gap-[20px] md:gap-[30px] py-[40px]">
 
             <section className="col-span-2">
 
@@ -17,7 +17,7 @@ function Hero() {
 
                 <div className="grid md:grid-cols-3">
 
-                    <h1 className="text-veryDarkBlue font-extraBold text-[25px] lg:text-[40px] lg:leading-[45px]">The Bright <br /> Future of <br className="hidden md:block"/> Web <br className="block md:hidden"/> 3.0?</h1>
+                    <h1 className="text-veryDarkBlue font-extraBold text-[30px] sm:text-[25px] lg:text-[45px] lg:leading-[50px]">The Bright <br /> Future of <br className="hidden md:block"/> Web <br className="block md:hidden"/> 3.0?</h1>
 
                     <div className="col-span-2 flex flex-col items-start justify-start gap-[20px]">
 
@@ -31,7 +31,7 @@ function Hero() {
 
             </section>
 
-            <article className="bg-veryDarkBlue p-7 md:px-3 md:py-4 lg:p-7">
+            <article className="bg-veryDarkBlue p-7 md:px-3 md:py-4 lg:p-6">
 
                 <h1 className="text-softOrange text-[30px] lg:text-[40px] font-bold pb-5">New</h1>
 

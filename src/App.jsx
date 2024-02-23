@@ -4,9 +4,9 @@ function App() {
 
   return(
 
-    <main className="border-4 border-red-500 min-h-dvh flex flex-col items-center justify-center font-inter">
+    <main className="min-h-dvh flex flex-col items-center justify-center font-inter py-[50px]">
 
-      <div className="border-4 border-green-500 w-[1400px] max-w-[85%]">
+      <div className="w-[1400px] max-w-[90%]">
 
         <Nav/>
 
