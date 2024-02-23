@@ -1,7 +1,23 @@
+import { Footer, Hero, Nav } from "./components";
 
 function App() {
+
   return(
-    <h1>App</h1>
+
+    <main className="border-4 border-red-500 min-h-dvh flex flex-col items-center justify-center font-inter">
+
+      <div className="border-4 border-green-500 w-[1400px] max-w-[85%]">
+
+        <Nav/>
+
+        <Hero/>
+
+        <Footer/>
+
+      </div>
+
+    </main>
+
   )
 }
 

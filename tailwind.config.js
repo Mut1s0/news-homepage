@@ -20,6 +20,11 @@ export default {
       fontFamily: {
         inter: [ "Inter", "sans-serif" ]
       },
+      fontWeight: {
+        regular: "400",
+        bold: "700",
+        extraBold: "800"
+      }
     },
     screens: {
       xs: "450px",

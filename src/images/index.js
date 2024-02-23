@@ -5,6 +5,7 @@ import imageRetroPCS from "./image-retro-pcs.jpg";
 import imageTopLaptops from "./image-top-laptops.jpg";
 import desktopWeb from "./image-web-3-desktop.jpg";
 import mobileWeb from "./image-web-3-mobile.jpg";
+import logo from "./logo.svg";
 
 export {
     iconMenuClose,
@@ -13,5 +14,6 @@ export {
     imageRetroPCS,
     imageTopLaptops,
     desktopWeb,
-    mobileWeb
+    mobileWeb,
+    logo
 }
